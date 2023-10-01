@@ -11,11 +11,12 @@ int i = 0;
 int res;
 if (n < 0)
 	return (-1);
-res = i * i;
-if (res > n)
-	return (-1);
-if (res == n)
-	return (i);
-i++;
+for (i=0; i<n; i++)
+{
+	if (i * i > n)
+		return (-1);
+	if (i * i == n)
+		return (i);
+}
 return (_sqrt_recursion(n));
 }
