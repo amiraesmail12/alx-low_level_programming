@@ -8,9 +8,9 @@ int act_prime(int n, int i);
 #include "main.h"
 int is_prime_number(int n)
 {
-if (n <= 0)
-	return (n, n - 1);
-return ();
+if (n <= 1)
+	return (0);
+return (act_prime(n, n - 1));
 }
 /**
  * act_prime - calculates if a number is prime recursively
