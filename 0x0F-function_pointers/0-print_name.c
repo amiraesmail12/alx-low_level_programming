@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "main.h"
+#include "function_pointers.h"
 /**
  * print_name - prints a name.
  * @name: apointer to array of names
