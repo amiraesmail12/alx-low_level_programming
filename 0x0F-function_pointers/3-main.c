@@ -28,7 +28,7 @@ if (!func)
 }
 
 o = *argv[2];
-if ((o == '/' || o == '%') && (argv[2] == 0))
+if ((o == '/' || o == '%') && num2 == 0)
 {
 	printf("Error\n");
 	exit(100);
