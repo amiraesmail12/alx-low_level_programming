@@ -15,5 +15,5 @@ long unsigned int i;
 if (!array || !action)
 	return;
 for (i = 0; i < size; i++)
-	action(i);
+	action(array[i]);
 }
