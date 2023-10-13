@@ -18,8 +18,11 @@ for (i = 0; i < n; i++)
 	int nums = va_arg(args, int);
 
 	printf("%d", nums);
+	if (separator == NULL)
+		return;
 	if (i < (n - 1))
 		printf("%s", separator);
+
 }
 va_end(args);
 printf("\n");
