@@ -13,10 +13,8 @@ int i;
 int flag;
 char *s;
 va_list args;
-
 va_start(args, format);
 i = 0;
-
 while (format != NULL && format[i] != 0)
 {
 	switch (format[i])
